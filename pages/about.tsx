@@ -4,8 +4,8 @@ import { NextPageWithLayout } from './page';
 
 const About: NextPageWithLayout = () => {
     return (
-        <section style={{color: "black"}}>
-            <h2>Layout Example (About)</h2>
+        <section className='text-black'>
+            <h2 className='text-cyan-500'>Layout Example (About)</h2>
             <p>
                 This example adds a property <code>getLayout</code> to your page,
                 allowing you to return a React component for the layout. This allows you
